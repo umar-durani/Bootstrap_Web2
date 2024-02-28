@@ -1,0 +1,2027 @@
+/* insert import  font family */
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+
+/* Insert body */
+
+body {
+  font-family: "Tilt Warp", cursive;
+  background-color: #101010;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Insert mainsection 1 */
+
+.mainsection1 {
+  height: 100vh;
+  color: white;
+  background-image: url("./img/bg.jpg");
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Insert level1parentdiv here */
+
+.level1parentdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+/* Insert heading 1 here */
+
+.heading1 {
+  font-size: 30px;
+}
+
+/* Insert heading 2 */
+
+.heading2 {
+  font-size: 40px;
+  width: 400px;
+}
+
+/* Insert list1 here */
+
+.list1 {
+  position: relative;
+}
+
+.list1::after {
+  margin-top: 20px;
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 20px;
+  top: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 65, 97);
+}
+
+/* Insert blank  */
+
+.blank {
+  position: relative;
+}
+
+.blank {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 80px;
+  margin-top: 80px;
+  background-color: rgb(255, 65, 97);
+}
+
+/* Insert flex div here */
+
+.flexdiv {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  display: none;
+}
+
+.button1 {
+  margin-top: 50px;
+  width: max-content;
+  padding: 13px 15px;
+  color: white;
+  border: none;
+  background-color: #0f0f0f;
+  font-weight: bold;
+  border: 2px solid rgb(255, 65, 97);
+}
+
+.button1:hover {
+  border: 2px solid #fff;
+  transition: 1s ease;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Insert mainsection 2 here */
+
+.mainsection2 {
+  height: 70vh;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* Insert mainsection parent div */
+
+.section2parentdiv {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Insert icon here */
+
+.icon1 {
+  border: 5px solid white;
+  width: fit-content;
+  font-size: 40px;
+  color: white;
+  margin-top: 20px;
+  /* display: none; */
+}
+
+/* Insert icon 2 */
+
+.icon2 {
+  font-size: 60px;
+  color: rgb(255, 65, 97);
+  margin-top: 20px;
+  /* display: none; */
+}
+
+/* Insert card1 */
+
+.card1 {
+  height: 50vh;
+  width: 23%;
+  background-color: rgb(255, 65, 97);
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* display: none; */
+}
+
+/* Insert card 2 */
+.card2 {
+  height: 50vh;
+  width: 23%;
+  background-color: #1b1b1b;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* display: none; */
+}
+
+/* Insert secondheading */
+
+.blank1 {
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+  /* display: none; */
+}
+
+/* Insert secheading 2 */
+
+/* Insert blank line */
+
+.blank1 h2::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 40px;
+  left: 0;
+  bottom: 0;
+  top: 30px;
+  /* display: none; */
+
+  background-color: white;
+}
+
+/* Insert blank 2 */
+
+.blank2 {
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+  /* display: none; */
+}
+
+/* Insert blank 2 line here */
+
+.blank2::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 40px;
+  top: 30px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  /* display: none; */
+}
+
+/*Insert secheading  */
+
+.secondheading p {
+  width: 100%;
+  /* display: none; */
+}
+
+/* Insert blanklast */
+
+.blanklast {
+  position: relative;
+  text-align: center;
+}
+
+.blanklast::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 40px;
+  top: 30px;
+  left: 35px;
+  bottom: 0;
+  background-color: rgb(255, 65, 97);
+  /* display: none; */
+}
+
+/* Insert card3 */
+
+.card3 {
+  height: 50vh;
+  width: 23%;
+  background-color: #1b1b1b;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 20px solid rgb(255, 65, 97);
+  /* display: none; */
+}
+
+/* Insection mainsection 3 */
+
+.mainsection3 {
+  height: 100vh;
+  color: white;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+/* Insert heading 3 */
+
+.heading3 {
+  font-size: 20px;
+  margin-top: 30px;
+  /* display: none; */
+}
+
+.heading3 span {
+  color: rgb(255, 65, 97);
+  /* display: none; */
+}
+
+/* Insert list 1 */
+
+.D-stratgy {
+  height: 15vh;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b1b1b;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* display: none; */
+}
+
+/* Insert icon3 */
+
+.icon3 {
+  font-size: 30px;
+  /* display: none; */
+}
+
+/* Insert level1parentdiv */
+
+.level2parentdiv {
+  display: flex;
+  gap: 30px;
+  /* display: none; */
+}
+
+/* Insert content strategy level 2 */
+
+.Content-stratgy {
+  height: 15vh;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1b1b1b;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* display: none; */
+}
+
+/* Insert level 2 parent div  */
+
+.level2parentdiv {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  /* display: none; */
+  flex-wrap: wrap;
+}
+
+/* Insert level 3 parent div */
+
+.level3parentdiv {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  /* display: none; */
+}
+
+/* Insert mainsection 3  */
+
+.mainsection-4 {
+  height: 100vh;
+  color: white;
+}
+
+/* insert  balnk 4 heading  */
+.blank4 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 100px;
+  /* display: none; */
+}
+
+/* insert span p */
+
+.spanp {
+  padding-left: 60px;
+  padding-right: 80px;
+  color: rgb(255, 65, 97);
+  /* display: none; */
+}
+
+/* insert blank 4 heading */
+
+.blank4 h1 {
+  padding-top: 65px;
+  font-size: 40px;
+  /* display: none; */
+}
+
+/* Insert button */
+
+.blank4 button {
+  padding: 13px 20px;
+  color: white;
+  border: none;
+  background-color: #0f0f0f;
+  font-weight: bold;
+  border: 2px solid rgb(255, 65, 97);
+  /* display: none; */
+}
+
+/* insert blank 4  heading line*/
+
+.blank4::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 80px;
+  top: 20px;
+  left: 0;
+  bottom: 30px;
+  top: 0;
+  background-color: rgb(255, 65, 97);
+  margin-left: 35px;
+  /* display: none; */
+}
+
+/* Insert blank 4  pargaph here */
+
+.blank4 span {
+  color: rgb(255, 65, 97);
+  /* display: none; */
+}
+
+/* Insert img 1 */
+
+.img1 {
+  height: 300px;
+  width: 300px;
+  /* display: none; */
+}
+
+/* Insert level4parentdiv */
+
+.level4parentdiv {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  gap: 30px;
+  margin-top: 70px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* display: none; */
+}
+
+/* Insert mainsection 5 */
+.mainsection-5 {
+  height: 100vh;
+  color: white;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-top: 100px;
+}
+
+/* Insert  blank-5 here */
+
+.blank-5 h1 {
+  position: relative;
+  font-weight: bold;
+  font-size: 40px;
+  /* display: none; */
+}
+
+/*  Insert psuedo code here */
+
+.blank-5 h1::before {
+  position: absolute;
+  height: 4px;
+  width: 80px;
+  background-color: rgb(255, 65, 97);
+  border: 1px solid red;
+  /* display: none; */
+}
+
+/* Insert blank 5 */
+
+.blank-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+  margin-top: 40px;
+  /* display: none; */
+}
+
+/* Insert span 2 */
+
+.span2 {
+  color: rgb(255, 65, 97);
+  /* display: none; */
+}
+
+/* Insert level5parentimg */
+
+.level5parentimg {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  padding-top: 50px;
+  /* display: none; */
+}
+
+/* Insert leve5img */
+
+.leve5img1 {
+  height: 80vh;
+  width: 200%;
+  position: relative;
+  /* display: none; */
+}
+
+.span5 {
+  position: relative;
+  color: white;
+  right: 400px;
+  top: 350px;
+  /* display: none; */
+}
+
+.span5 h4 {
+  font-size: 20px;
+  font-weight: bold;
+  /* display: none; */
+}
+
+/* Insert span6 */
+
+.span6 {
+  position: absolute;
+  color: white;
+  right: 400px;
+  top: 350px;
+  /* display: none; */
+}
+
+/* Insert lev5img2 */
+
+.lev5img2 {
+  height: 38vh;
+  width: 120%;
+  /* display: none; */
+}
+
+/* insert parent div level 2 img */
+
+.parentdiv2img {
+  margin-right: 50px;
+  /* display: none; */
+}
+
+/* Insert mainsection-6 */
+
+.mainsection-6 {
+  height: 50vh;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: white;
+}
+
+/* Insert level1-head */
+
+.level1-head h4 {
+  font-size: 25px;
+  /* display: none; */
+}
+
+/* insert level1-  paragraph here */
+
+.level1-head p {
+  width: 110%;
+  line-height: 20px;
+  /* display: none; */
+}
+
+/* insert level6-parent */
+
+.level6-parent {
+  display: flex;
+  gap: 40px;
+  /* display: none; */
+}
+
+/* Insert blank7 */
+
+.blank7 h1 {
+  position: relative;
+  border: 3px solid red;
+  /* display: none; */
+}
+
+.balnk-7::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 80px;
+  top: 20px;
+  background-color: rgb(255, 65, 97);
+  border: 1px solid red;
+  /* display: none; */
+}
+
+/* Insert mainsection7 */
+.mainsection7 {
+  height: 100vh;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: white;
+}
+
+/* Insert level7parent */
+
+.level7parent {
+  display: flex;
+  gap: 50px;
+  /* display: none; */
+}
+
+/* Insert sec7img */
+
+.sec7img {
+  height: 500px;
+  width: 500px;
+  /* display: none; */
+}
+
+/* Insert sec7heading */
+
+.sec7heading h1 {
+  font-size: 40px;
+  font-weight: bold;
+  /* display: none; */
+  margin-top: 30px;
+}
+
+/* Insert blank-7 */
+
+.blank-7 h1 {
+  position: relative;
+  /* display: none; */
+}
+
+.blank-7 h1::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 50px;
+  top: -30px;
+  background-color: rgb(255, 65, 97);
+  left: 0;
+  /* display: none; */
+}
+
+/* insert sec7 heading p */
+
+.sec7heading span {
+  color: rgb(255, 65, 97);
+  /* display: none; */
+  padding-top: 20px;
+}
+
+.sec7heading p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: none;
+  line-height: 35px;
+  font-size: 20px;
+  padding-top: 20px;
+  /* display: none; */
+}
+
+/* .digital-agency{
+    color: rgb(255, 65, 97);
+    border: 1px solid red;
+} */
+
+/* 
+/* Insert lastblank7 */
+.lastblank7 {
+  color: #fff;
+  padding: 2px 2px;
+  /* display: none; */
+}
+
+.ulflex {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serifs;
+  display: flex;
+  font-size: 40px;
+  gap: 40px;
+  list-style: none;
+  color: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: none;
+}
+
+/* section 7 blank */
+
+.sec7blank {
+  color: rgb(255, 65, 97);
+  padding: 2px 2px;
+  padding-left: 80px;
+  padding-right: 80px;
+  /* display: none; */
+}
+
+/* Insert mainsection-8 */
+
+.mainsection-8 {
+  height: 100vh;
+  color: white;
+}
+
+/* Insert sec8heading here */
+
+.sec8heading {
+  text-align: center;
+  /* display: none; */
+}
+
+/* sec8 heading span */
+
+.sec8heading span {
+  color: rgb(255, 65, 97);
+  /* display: none; */
+}
+
+.sec8heading h1 {
+  font-size: 40px;
+  text-align: center;
+  /* display: none; */
+}
+
+/* Insert sec8parentdiv hre */
+
+.sec8parentdiv {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 100px;
+  /* display: none; */
+}
+
+/* Insert img 2 */
+
+.img2 {
+  height: 350px;
+  width: 350px;
+  position: relative;
+  /* display: none; */
+}
+
+.span8 {
+  position: absolute;
+  color: white;
+  width: 30%;
+  /* display: none; */
+}
+
+/* Insert mainsection 9 */
+
+.mainsection-9 {
+  height: 50vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #101010;
+  color: #fff;
+}
+
+/* Insert icon color*/
+
+#iconcolor1 {
+  border: 2px solid rgb(255, 65, 97);
+  border-radius: 30px;
+  padding: 7px 15px;
+  /* display: none; */
+}
+
+#iconcolor2 {
+  border: 2px solid rgb(255, 65, 97);
+  border-radius: 30px;
+  padding: 7px 8px;
+  /* display: none; */
+}
+
+#iconcolor3 {
+  border: 2px solid rgb(255, 65, 97);
+  border-radius: 30px;
+  padding: 7px 10px;
+  /* display: none; */
+}
+
+#iconcolor4 {
+  border: 2px solid rgb(255, 65, 97);
+  border-radius: 30px;
+  padding: 7px 10px;
+  /* display: none; */
+}
+
+/* Insert iconparent here */
+.iconparent {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  /* display: none; */
+}
+
+/* Insert letstalk */
+
+.letstalk {
+  font-size: 30px;
+  /* display: none; */
+}
+
+/* Insert makebutton */
+
+.makebutton {
+  font-size: 20px;
+  padding: 12px 13px;
+  border: 2px solid rgb(255, 65, 97);
+  background-color: #1b1b1b;
+  color: #fff;
+  /* display: none; */
+}
+
+.makebutton:hover {
+  background-color: #000;
+  transition: 1s ease;
+  border-color: #fff;
+  color: #fff;
+  /* display: none; */
+}
+
+/* Insert sec9parentdiv */
+
+.sec9parentdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  /* display: none; */
+}
+
+/* Insert parentbold */
+
+.parentbold {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  height: 30vh;
+  background-color: #1b1b1b;
+  color: #fff;
+  padding-top: 40px;
+  /* display: none; */
+}
+
+/*bold  */
+.bold {
+  font-size: 30px;
+  line-height: 40px;
+  /* display: none; */
+}
+
+/* Insert footerparent */
+
+.footerparent {
+  color: #fff;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  background-color: #000;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.fotterflex {
+  display: flex;
+  /* list-style: none; */
+  gap: 20px;
+}
+
+@media screen and (min-width: 1365px) {
+  /* insert import  font family */
+  @import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+
+  /* Insert body */
+
+  body {
+    font-family: "Tilt Warp", cursive;
+    background-color: #101010;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* Insert mainsection 1 */
+
+  .mainsection1 {
+    height: 100vh;
+    color: white;
+    background-image: url(./img/pexels-sebastiaan-stam-1097456.jpg);
+    color: #fff;
+    background-size: cover;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  /* Insert level1parentdiv here */
+
+  .level1parentdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+
+  /* Insert heading 1 here */
+
+  .heading1 {
+    font-size: 30px;
+  }
+
+  /* Insert heading 2 */
+
+  .heading2 {
+    font-size: 40px;
+    width: 400px;
+  }
+
+  /* Insert list1 here */
+
+  .list1 {
+    position: relative;
+  }
+
+  .list1::after {
+    margin-top: 20px;
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 20px;
+    top: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 65, 97);
+  }
+
+  /* Insert blank  */
+
+  .blank {
+    position: relative;
+  }
+
+  .blank {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    margin-top: 80px;
+    background-color: rgb(255, 65, 97);
+  }
+
+  /* Insert flex div here */
+
+  .flexdiv {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+
+  .button1 {
+    margin-top: 50px;
+    width: max-content;
+    padding: 13px 15px;
+    color: white;
+    border: none;
+    background-color: #0f0f0f;
+    font-weight: bold;
+    border: 2px solid rgb(255, 65, 97);
+  }
+
+  .button1:hover {
+    border: 2px solid #fff;
+    transition: 1s ease;
+    background-color: #000;
+    color: #fff;
+  }
+
+  /* Insert mainsection 2 here */
+
+  .mainsection2 {
+    height: 70vh;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  /* Insert mainsection parent div */
+
+  .section2parentdiv {
+    display: flex;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+  }
+
+  /* Insert icon here */
+
+  .icon1 {
+    border: 5px solid white;
+    width: fit-content;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    /* display: none; */
+  }
+
+  /* Insert icon 2 */
+
+  .icon2 {
+    font-size: 60px;
+    color: rgb(255, 65, 97);
+    margin-top: 20px;
+    /* display: none; */
+  }
+
+  /* Insert card1 */
+
+  .card1 {
+    height: 50vh;
+    width: 23%;
+    background-color: rgb(255, 65, 97);
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* display: none; */
+  }
+
+  /* Insert card 2 */
+  .card2 {
+    height: 50vh;
+    width: 23%;
+    background-color: #1b1b1b;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* display: none; */
+  }
+
+  /* Insert secondheading */
+
+  .blank1 {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    /* display: none; */
+  }
+
+  /* Insert secheading 2 */
+
+  /* Insert blank line */
+
+  .blank1 h2::before {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 40px;
+    left: 0;
+    bottom: 0;
+    top: 30px;
+    /* display: none; */
+
+    background-color: white;
+  }
+
+  /* Insert blank 2 */
+
+  .blank2 {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    /* display: none; */
+  }
+
+  /* Insert blank 2 line here */
+
+  .blank2::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 40px;
+    top: 30px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    /* display: none; */
+  }
+
+  /*Insert secheading  */
+
+  .secondheading p {
+    width: 100%;
+    /* display: none; */
+  }
+
+  /* Insert blanklast */
+
+  .blanklast {
+    position: relative;
+    text-align: center;
+    /* display: none; */
+  }
+
+  .blanklast::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 40px;
+    top: 30px;
+    left: 35px;
+    bottom: 0;
+    background-color: rgb(255, 65, 97);
+    /* display: none; */
+  }
+
+  /* Insert card3 */
+
+  .card3 {
+    height: 50vh;
+    width: 23%;
+    background-color: #1b1b1b;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 20px solid rgb(255, 65, 97);
+    /* display: none; */
+  }
+
+  /* Insection mainsection 3 */
+
+  .mainsection3 {
+    height: 100vh;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  /* Insert heading 3 */
+
+  .heading3 {
+    font-size: 20px;
+    margin-top: 30px;
+    /* display: none; */
+  }
+
+  .heading3 span {
+    color: rgb(255, 65, 97);
+    /* display: none; */
+  }
+
+  /* Insert list 1 */
+
+  .D-stratgy {
+    height: 15vh;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* display: none; */
+  }
+
+  /* Insert icon3 */
+
+  .icon3 {
+    font-size: 30px;
+    /* display: none; */
+  }
+
+  /* Insert level1parentdiv */
+
+  .level2parentdiv {
+    display: flex;
+    gap: 30px;
+    /* display: none; */
+  }
+
+  /* Insert content strategy level 2 */
+
+  .Content-stratgy {
+    height: 15vh;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* display: none; */
+  }
+
+  /* Insert level 2 parent div  */
+
+  .level2parentdiv {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    /* display: none; */
+    flex-wrap: wrap;
+  }
+
+  /* Insert level 3 parent div */
+
+  .level3parentdiv {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    /* display: none; */
+  }
+
+  /* Insert mainsection 3  */
+
+  .mainsection-4 {
+    height: 100vh;
+    color: white;
+  }
+
+  /* insert  balnk 4 heading  */
+  .blank4 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 100px;
+    /* display: none; */
+  }
+
+  /* insert span p */
+
+  .spanp {
+    padding-left: 60px;
+    padding-right: 80px;
+    color: rgb(255, 65, 97);
+    /* display: none; */
+  }
+
+  /* insert blank 4 heading */
+
+  .blank4 h1 {
+    padding-top: 65px;
+    font-size: 40px;
+    /* display: none; */
+  }
+
+  /* Insert button */
+
+  .blank4 button {
+    padding: 13px 20px;
+    color: white;
+    border: none;
+    background-color: #0f0f0f;
+    font-weight: bold;
+    border: 2px solid rgb(255, 65, 97);
+    /* display: none; */
+  }
+
+  /* insert blank 4  heading line*/
+
+  .blank4::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    top: 20px;
+    left: 0;
+    bottom: 30px;
+    top: 0;
+    background-color: rgb(255, 65, 97);
+    margin-left: 35px;
+    /* display: none; */
+  }
+
+  /* Insert blank 4  pargaph here */
+
+  .blank4 span {
+    color: rgb(255, 65, 97);
+    /* display: none; */
+  }
+
+  /* Insert img 1 */
+
+  .img1 {
+    height: 300px;
+    width: 300px;
+    /* display: none; */
+  }
+
+  /* Insert level4parentdiv */
+
+  .level4parentdiv {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* display: none; */
+  }
+
+  /* Insert mainsection 5 */
+  .mainsection-5 {
+    height: 100vh;
+    color: white;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-top: 100px;
+  }
+
+  /* Insert  blank-5 here */
+
+  .blank-5 h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 40px;
+    /* display: none; */
+  }
+
+  /*  Insert psuedo code here */
+
+  .blank-5 h1::before {
+    position: absolute;
+    height: 4px;
+    width: 80px;
+    background-color: rgb(255, 65, 97);
+    border: 1px solid red;
+    /* display: none; */
+  }
+
+  /* Insert blank 5 */
+
+  .blank-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    margin-top: 40px;
+    /* display: none; */
+  }
+
+  /* Insert span 2 */
+
+  .span2 {
+    color: rgb(255, 65, 97);
+    /* display: none; */
+  }
+
+  /* Insert level5parentimg */
+
+  .level5parentimg {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding-top: 50px;
+    /* display: none; */
+  }
+
+  /* Insert leve5img */
+
+  .leve5img1 {
+    height: 80vh;
+    width: 200%;
+    position: relative;
+    /* display: none; */
+  }
+
+  .span5 {
+    position: relative;
+    color: white;
+    right: 400px;
+    top: 350px;
+    /* display: none; */
+  }
+
+  .span5 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    /* display: none; */
+  }
+
+  /* Insert span6 */
+
+  .span6 {
+    position: absolute;
+    color: white;
+    right: 400px;
+    top: 350px;
+    /* display: none; */
+  }
+
+  /* Insert lev5img2 */
+
+  .lev5img2 {
+    height: 38vh;
+    width: 120%;
+    /* display: none; */
+  }
+
+  /* insert parent div level 2 img */
+
+  .parentdiv2img {
+    margin-right: 50px;
+    /* display: none; */
+  }
+
+  /* Insert mainsection-6 */
+
+  .mainsection-6 {
+    height: 50vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+  }
+
+  /* Insert level1-head */
+
+  .level1-head h4 {
+    font-size: 25px;
+    /* display: none; */
+  }
+
+  /* insert level1-  paragraph here */
+
+  .level1-head p {
+    width: 110%;
+    line-height: 20px;
+    /* display: none; */
+  }
+
+  /* insert level6-parent */
+
+  .level6-parent {
+    display: flex;
+    gap: 40px;
+    /* display: none; */
+  }
+
+  /* Insert blank7 */
+
+  .blank7 h1 {
+    position: relative;
+    border: 3px solid red;
+    /* display: none; */
+  }
+
+  .balnk-7::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80px;
+    top: 20px;
+    background-color: rgb(255, 65, 97);
+    border: 1px solid red;
+    /* display: none; */
+  }
+
+  /* Insert mainsection7 */
+  .mainsection7 {
+    height: 100vh;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+  }
+
+  /* Insert level7parent */
+
+  .level7parent {
+    display: flex;
+    gap: 50px;
+    /* display: none; */
+  }
+
+  /* Insert sec7img */
+
+  .sec7img {
+    height: 500px;
+    width: 500px;
+    /* display: none; */
+  }
+
+  /* Insert sec7heading */
+
+  .sec7heading h1 {
+    font-size: 40px;
+    font-weight: bold;
+    /* display: none; */
+    margin-top: 30px;
+  }
+
+  /* Insert blank-7 */
+
+  .blank-7 h1 {
+    position: relative;
+    /* display: none; */
+  }
+
+  .blank-7 h1::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    top: -30px;
+    background-color: rgb(255, 65, 97);
+    left: 0;
+    /* display: none; */
+  }
+
+  /* insert sec7 heading p */
+
+  .sec7heading span {
+    color: rgb(255, 65, 97);
+    /* display: none; */
+    padding-top: 20px;
+  }
+
+  .sec7heading p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: none;
+    line-height: 35px;
+    font-size: 20px;
+    padding-top: 20px;
+    /* display: none; */
+  }
+
+  /* .digital-agency{
+    color: rgb(255, 65, 97);
+    border: 1px solid red;
+} */
+
+  /* 
+/* Insert lastblank7 */
+  .lastblank7 {
+    color: #fff;
+    padding: 2px 2px;
+    /* display: none; */
+  }
+
+  .ulflex {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serifs;
+    display: flex;
+    font-size: 40px;
+    gap: 40px;
+    list-style: none;
+    color: #fff;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: none;
+  }
+
+  /* section 7 blank */
+
+  .sec7blank {
+    color: rgb(255, 65, 97);
+    padding: 2px 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* display: none; */
+  }
+
+  /* Insert mainsection-8 */
+
+  .mainsection-8 {
+    height: 100vh;
+    color: white;
+  }
+
+  /* Insert sec8heading here */
+
+  .sec8heading {
+    text-align: center;
+    /* display: none; */
+  }
+
+  /* sec8 heading span */
+
+  .sec8heading span {
+    color: rgb(255, 65, 97);
+    /* display: none; */
+  }
+
+  .sec8heading h1 {
+    font-size: 40px;
+    text-align: center;
+    /* display: none; */
+  }
+
+  /* Insert sec8parentdiv hre */
+
+  .sec8parentdiv {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 100px;
+    /* display: none; */
+  }
+
+  /* Insert img 2 */
+
+  .img2 {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    /* display: none; */
+  }
+
+  .span8 {
+    position: absolute;
+    color: white;
+    width: 30%;
+    /* display: none; */
+  }
+
+  /* Insert mainsection 9 */
+
+  .mainsection-9 {
+    height: 50vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #101010;
+    color: #fff;
+  }
+
+  /* Insert icon color*/
+
+  #iconcolor1 {
+    border: 2px solid rgb(255, 65, 97);
+    border-radius: 30px;
+    padding: 7px 15px;
+    /* display: none; */
+  }
+
+  #iconcolor2 {
+    border: 2px solid rgb(255, 65, 97);
+    border-radius: 30px;
+    padding: 7px 8px;
+    /* display: none; */
+  }
+
+  #iconcolor3 {
+    border: 2px solid rgb(255, 65, 97);
+    border-radius: 30px;
+    padding: 7px 10px;
+    /* display: none; */
+  }
+
+  #iconcolor4 {
+    border: 2px solid rgb(255, 65, 97);
+    border-radius: 30px;
+    padding: 7px 10px;
+    /* display: none; */
+  }
+
+  /* Insert iconparent here */
+  .iconparent {
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+    /* display: none; */
+  }
+
+  /* Insert letstalk */
+
+  .letstalk {
+    font-size: 30px;
+    /* display: none; */
+  }
+
+  /* Insert makebutton */
+
+  .makebutton {
+    font-size: 20px;
+    padding: 12px 13px;
+    border: 2px solid rgb(255, 65, 97);
+    background-color: #1b1b1b;
+    color: #fff;
+    /* display: none; */
+  }
+
+  .makebutton:hover {
+    background-color: #000;
+    transition: 1s ease;
+    border-color: #fff;
+    color: #fff;
+    /* display: none; */
+  }
+
+  /* Insert sec9parentdiv */
+
+  .sec9parentdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    /* display: none; */
+  }
+
+  /* Insert parentbold */
+
+  .parentbold {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    height: 30vh;
+    background-color: #1b1b1b;
+    color: #fff;
+    padding-top: 40px;
+    /* display: none; */
+  }
+
+  /*bold  */
+  .bold {
+    font-size: 30px;
+    line-height: 40px;
+    /* display: none; */
+  }
+
+  /* Insert footerparent */
+
+  .footerparent {
+    color: #fff;
+    display: flex;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: #000;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .fotterflex {
+    display: flex;
+    /* list-style: none; */
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .mainsection1 {
+    border: 5px solid red;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .mainsection2 {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .mainsection3 {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .mainsection-4 {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .mainsection-5 {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .mainsection-6 {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .mainsection7 {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .mainsection-8 {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .mainsection-9 {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .footerparent {
+    /* border: 2px solid red; */
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .flexdiv {
+    padding-right: 35px;
+  }
+
+  .blank {
+    margin-left: 35px;
+  }
+
+  .heading2 {
+    padding: 0px;
+    font-size: 30px;
+  }
+
+  .heading1 {
+    padding: 35px;
+    font: 20px;
+  }
+
+  .button1 {
+    margin-top: 50px;
+  }
+
+  .section2parentdiv {
+    padding-top: 50px;
+    padding-left: 35px;
+  }
+
+  .card1 {
+    width: 33%;
+  }
+
+  .card2 {
+    width: 32%;
+  }
+
+  .card3 {
+    width: 22%;
+  }
+
+  .icon1 {
+    font-size: 25px;
+  }
+
+  .icon2 {
+    font-size: 35px;
+  }
+
+  .innovativeheading {
+    font-size: 24px;
+  }
+
+  .para-1 {
+    padding-top: 7px;
+  }
+
+  /* Insert section-3 here */
+  .heading3 {
+    padding-left: 35px;
+  }
+
+  .level2parentdiv {
+    padding-left: 35px;
+  }
+
+  .level3parentdiv {
+    padding-left: 35px;
+  }
+
+  .level7parent {
+    gap: 0px;
+  }
+
+  /* insert section-4 */
+  .blank4 {
+    padding-left: 35px;
+    padding-right: 40px;
+    /* margin-left: 35px; */
+    margin-top: 30px;
+  }
+
+  /* insert section-5 */
+  .spanp {
+    padding-left: 35px;
+    padding-top: 20px;
+  }
+
+  .img1 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .blank-5 {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .span2 {
+    padding-left: 35px;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+
+  .level5parentimg {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .level6-parent {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 60px;
+  }
+
+  .level1-head h4 {
+    font-size: 24px;
+  }
+
+  .level1-head p {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+  .D-stratgy {
+    width: 37%;
+  }
+
+  .Content-stratgy {
+    width: 37%;
+  }
+
+  .span5 {
+    top: 400px;
+  }
+
+  .sec7img {
+    padding-left: 35px;
+    padding-top: 30px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .sec7heading {
+    padding-top: 30px;
+  }
+
+  .sec7heading h1 {
+    font-size: 32px;
+  }
+
+  .iconparent {
+    font-size: 15px;
+  }
+
+  .makebutton {
+    font-size: 13px;
+  }
+
+  .iconparent h1 {
+    font-size: 15px;
+  }
+
+  .sec7heading p {
+    font-size: 13px;
+    padding-top: 30px;
+    line-height: 19px;
+  }
+
+  .digital-agency {
+    color: rgb(255, 65, 97);
+  }
+
+  .sec8heading {
+    padding-top: 30px;
+  }
+
+  .sec9parentdiv {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .footerparent {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .img2 {
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .sec8parentdiv {
+    gap: 0px;
+  }
+
+  .leve5img1 {
+    height: 53vh;
+    width: 190%;
+  }
+}
